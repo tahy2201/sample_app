@@ -16,14 +16,6 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
 
-group :test do
-  gem 'rails-controller-testing', '1.0.4'
-  gem 'minitest',                 '5.14.0'
-  gem 'minitest-reporters',       '1.1.14'
-  gem 'guard',                    '2.16.2'
-  gem 'guard-minitest',           '2.4.4'
-end
-
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'web-console', '>= 3.3.0'
