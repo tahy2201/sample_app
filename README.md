@@ -39,3 +39,7 @@ $ rails server
 
 詳しくは、[*Ruby on Rails チュートリアル*](https://railstutorial.jp/)
 を参考にしてください。
+
+# heroku
+
+https://tahy2201rails.herokuapp.com/
