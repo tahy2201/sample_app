@@ -42,4 +42,4 @@ $ rails server
 
 # heroku
 
-https://tahy2201rails.herokuapp.com/
+https://rails-tutorial-sampletahy.herokuapp.com/
