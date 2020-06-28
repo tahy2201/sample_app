@@ -29,4 +29,9 @@ class UsersController < ApplicationController
     params.require(:user).permit(:name, :email, :password,
                                  :password_confirmation)
   end
+
+  def destroy
+    log_out if logged_in?
+    redirect_to root_url
+  end
 end
