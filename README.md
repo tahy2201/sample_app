@@ -44,4 +44,4 @@ $ rails server
 
 https://rails-tutorial-sampletahy.herokuapp.com/
 
-[a relative link](tmp/README.md)
+[a relative link](test/README.md)
